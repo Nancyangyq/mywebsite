@@ -10,7 +10,7 @@ const Project = () => {
       <br />
         首頁切版</h1>
       <div>
-        <a target="_blank" href="http://glass-project.netlify.app">
+        <a target="_blank" rel="noreferrer" href="http://glass-project.netlify.app">
         <img src={require('../img/jins.png')} alt="" />
         </a>
       </div>
@@ -31,7 +31,7 @@ const Project = () => {
       <br />
         報名表單</h1>
       <div>
-        <a target="_blank" href="http://register-form-project.netlify.app">
+        <a target="_blank" rel="noreferrer" href="http://register-form-project.netlify.app">
         <img src={require('../img/form.png')} alt="" />
         </a>
       </div>
