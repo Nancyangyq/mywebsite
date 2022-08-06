@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #A08887;
+}
+
+nav.nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav.nav-bar a {
+  padding: 0rem 2rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+footer.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #807E7F;
+  padding: 1.5rem 2rem;
+}
+
+footer.footer a {
+  padding: 0rem 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+footer.footer i {
+  padding-right: 1.5rem;
+}
+
+footer.footer p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+section.homepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0rem 6rem;
+}
+
+section.homepage div.img {
+  width: 35vw;
+  height: 35vw;
+  border-radius: 50%;
+  background-image: url("../img/profilo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+section.homepage div.intro h1 {
+  font-weight: 900;
+  font-size: 5rem;
+}
+
+section.homepage div.intro p {
+  font-size: 1.5rem;
+}
+
+section.homepage div.intro p, section.homepage div.intro h1 {
+  text-align: right;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+section.homepage div.intro div.circle {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  background-color: #A9B7AA;
+  margin: 0rem 1rem;
+}
+
+section.homepage div.intro div.circle a {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  padding: 3rem;
+}
+
+div section.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5rem;
+}
+
+div section.about div {
+  background-color: #7A848D;
+  padding: 2rem;
+  border-radius: 5px;
+  line-height: 2;
+}
+
+div section.about div p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+div section.about div ul li {
+  list-style-type: square;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+div section.reason {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #82ABA3;
+  margin: 2rem;
+  border-radius: 5px;
+}
+
+div section.reason div {
+  padding: 2rem;
+}
+
+div section.reason div p {
+  text-align: justify;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+div section.reason div p span {
+  font-size: 2rem;
+  color: #fff;
+}
+
+div.project section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+  padding-left: 5rem;
+  background-color: #A9B7AA;
+  color: #fff;
+  border-radius: 5px;
+}
+
+div.project section h1 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  line-height: 2;
+}
+
+div.project section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 4rem;
+}
+
+div.project section div a {
+  width: 30vw;
+  height: 15vw;
+}
+
+div.project section div a img {
+  width: 100%;
+}
+
+div.project section div.content p {
+  font-size: 1.3rem;
+}
+
+div.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5rem;
+}
+
+div.contact section.contact h1 {
+  padding: 0rem 1rem;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 2;
+}
+
+div.contact section.contact p {
+  padding: 0rem 1rem;
+  line-height: 2;
+}
+
+div.contact section.contact ul li {
+  margin: 20px 0;
+}
+
+div.contact section.contact ul li a {
+  font-size: 1.5rem;
+}
+
+div.contact section.contact ul li i {
+  padding: 1rem;
+}
+
+div.contact section.msg {
+  background-color: #B87F78;
+  border-radius: 10px;
+  padding: 0rem 5rem;
+}
+
+div.contact section.msg label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 1rem 0rem;
+  font-size: 1.2rem;
+}
+
+div.contact section.msg input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: 0;
+  border-radius: 3px;
+  border: transparent;
+  width: 40vw;
+  height: 3vw;
+  padding-left: 1rem;
+}
+
+div.contact section.msg input:focus {
+  border: 2px solid #000;
+}
+
+div.contact section.msg input.textarea {
+  height: 10vw;
+}
+
+div.contact section.msg button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #53565C;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 1rem;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+
+div.contact section.msg button:hover {
+  background-color: #B1ACB3;
+  color: #fff;
+  border: transparent;
+  font-weight: 600;
+  -webkit-box-shadow: 2px 3px #ccc;
+          box-shadow: 2px 3px #ccc;
+}
+
+div.error {
+  padding: 12rem 0rem;
+}
+
+div.error h1, div.error p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=styles.css.map */

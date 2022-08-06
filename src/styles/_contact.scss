@@ -1,0 +1,84 @@
+div.contact{
+    display:flex;
+    justify-content: space-around;
+    margin:5rem;
+    section.contact{
+
+        h1{
+            padding: 0rem 1rem;
+            font-size:50px;
+            font-weight:900;
+            line-height:2;
+        }
+        p{
+            padding: 0rem 1rem;
+            line-height:2;
+        }
+        ul{
+            li{
+                margin:20px 0;
+                a{
+                    font-size:1.5rem;
+                }
+                i{
+                    padding:1rem;
+                }
+            }
+        }
+    }
+
+    section.msg{
+        background-color: #B87F78;
+        border-radius: 10px;
+        padding:0rem 5rem;
+
+        label{ 
+            display:flex;
+            justify-content: flex-start;
+            margin:1rem 0rem;
+            font-size:1.2rem;
+        }
+        input{
+            display:flex;
+            outline:0;
+            border-radius: 3px;
+            border:transparent;
+            width:40vw;
+            height:3vw;
+            padding-left:1rem;
+
+            &:focus{
+                border:2px solid #000;
+            }
+
+        }
+        input.textarea{
+            height:10vw;
+        }
+
+
+
+
+        button{
+            width:100px;
+            height:40px;
+            border-radius: 10px;
+            background-color: #fff;
+            color:#000;
+            border:3px solid #53565C;
+            cursor:pointer;
+            font-size:18px;
+            margin-top:1rem;
+            transition: all 0.2s ease;
+            font-weight: 600;
+
+            &:hover{
+                background-color:#B1ACB3;
+                color:#fff;
+                border:transparent;
+                font-weight: 600;
+                box-shadow:2px 3px #ccc;
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+section.homepage{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0rem 6rem;
+
+    div.img{
+    width:35vw;
+    height:35vw;
+    border-radius: 50%;
+    background-image: url('../img/profilo.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+    div.intro{
+
+        h1{
+            font-weight: 900;
+            font-size:5rem;
+        }
+
+        p{
+            font-size:1.5rem;
+        }
+
+        p,h1{
+        text-align: right;
+        line-height: 1.6;
+        letter-spacing:1px;
+    }
+
+
+    div.circle{
+        display:inline-flex;
+        justify-content: center;
+        align-items: center;
+        width:12vw;
+        height:12vw;
+        border-radius: 50%;
+        background-color:#A9B7AA;
+        margin:0rem 1rem;
+                a{
+
+                    font-size:2rem;
+                    font-weight:800;
+                    color:#fff;
+                    padding:3rem;
+                }
+            }
+
+        }
+
+
+}
+

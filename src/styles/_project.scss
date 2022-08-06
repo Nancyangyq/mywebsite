@@ -1,0 +1,39 @@
+div.project{
+
+    section{
+        display:flex;
+        justify-content:flex-start;
+        align-items: center;
+        margin:2rem;
+        padding-left:5rem;
+        background-color: #A9B7AA;
+        color:#fff;
+        border-radius: 5px;
+        h1{
+        font-size:2rem;
+        letter-spacing: 3px;
+        line-height: 2;
+        }
+
+    div{
+        display:flex;
+        padding:2rem 4rem;
+        // border:1px solid;
+
+        a{
+            width:30vw;
+            height:15vw;
+            img{
+                width:100%;
+            }
+        }
+    }
+
+    div.content{
+        p{
+            font-size:1.3rem;
+        }
+    }
+    }
+    
+}

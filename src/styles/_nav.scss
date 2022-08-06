@@ -1,0 +1,17 @@
+nav.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem 2rem;
+    background-color:#A08887;
+        ul{
+            display:flex;
+
+        }
+        a{
+            padding:0rem 2rem;
+            font-size:2rem;
+            color:#fff;
+        }
+
+}
