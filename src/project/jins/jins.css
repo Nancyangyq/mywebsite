@@ -2,8 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: "JINS_Next", "Noto Sans TC", "Helvetica Neue", "Helvetica", "PingFang TC", "Arial", "Microsoft JhengHei", "微軟正黑體", sans-serif;
 }
 
@@ -17,21 +16,13 @@ body i {
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 1rem 2.5rem;
 }
 
 header div.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   cursor: pointer;
 }
@@ -50,8 +41,6 @@ header nav.nav {
 }
 
 header nav.nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -78,16 +67,12 @@ section.first {
 }
 
 section.first div.pic {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: absolute;
   left: -100vw;
 }
 
 section.first div.pic img.img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-size: cover;
   background-position: center;
@@ -102,13 +87,8 @@ section.second {
 }
 
 section.second div.title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 4rem;
 }
 
@@ -117,8 +97,6 @@ section.second div.title h3 {
 }
 
 section.second div.title ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
   margin-top: 1rem;
@@ -135,17 +113,12 @@ section.second div.title ul li a {
 }
 
 section.second div.pic {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 section.second div.pic ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   list-style-type: none;
   border: 1px solid;
   margin-left: 2.25rem;
@@ -164,8 +137,7 @@ section.second div.pic ul li a {
 section.second div.pic ul li a img {
   width: 25vw;
   height: 20vw;
-  -webkit-box-shadow: 0 8px 6px -6px #646464;
-          box-shadow: 0 8px 6px -6px #646464;
+  box-shadow: 0 8px 6px -6px #646464;
 }
 
 section.second div.pic ul li a p {
@@ -184,7 +156,6 @@ section.second button.viewmore {
   bottom: 2px;
   left: 5%;
   cursor: pointer;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
@@ -199,27 +170,16 @@ section.second i {
 }
 
 section.third {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   min-height: 70vh;
   width: 100%;
 }
 
 section.third div.title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   margin: 4rem;
 }
 
@@ -235,7 +195,6 @@ section.third div.title button.viewall {
   cursor: pointer;
   border-radius: 3px;
   padding: 1rem 2rem;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
@@ -246,20 +205,13 @@ section.third div.title button.viewall:hover {
 }
 
 section.third div.pic {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 section.third div.pic ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
@@ -284,31 +236,18 @@ section.forth {
 }
 
 section.forth div.slogan ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 1rem;
 }
 
 section.forth div.slogan ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
 }
 
@@ -323,19 +262,10 @@ section.fifth {
 }
 
 section.fifth div.store {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section.fifth div.store img {
@@ -346,22 +276,14 @@ section.fifth div.store img {
 section.fifth div.store div {
   width: 30vw;
   height: 20vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: absolute;
 }
 
 section.fifth div.store div div.white {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 0.5rem 2rem;
   background-color: #fff;
 }
@@ -382,7 +304,6 @@ section.fifth button.store {
   bottom: 30%;
   left: 50%;
   cursor: pointer;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   padding: 1rem 2rem;
 }
@@ -398,12 +319,8 @@ section.fifth i {
 }
 
 footer.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin: 3rem;
 }
 
@@ -459,9 +376,7 @@ footer.footer div.media-country div.country p {
 footer.footer div.media-country div.country select.select {
   background-image: url("https://www.jins.com/tw/images/icon/down-blue.svg");
   background-repeat: no-repeat;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
   background-position: right 25px center;
   border: 1px solid #000;
   outline: 0;
@@ -475,19 +390,10 @@ footer.footer div.media-country div.country select.select {
     display: none;
   }
   section.second div.pic ul li a {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   section.second div.pic ul li a img {
     width: 50vw;
@@ -501,19 +407,10 @@ footer.footer div.media-country div.country select.select {
     padding: 0.5rem 1rem;
   }
   section.third div.pic ul li {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 2rem;
   }
   section.third div.pic ul li img {
@@ -521,16 +418,10 @@ footer.footer div.media-country div.country select.select {
     height: 60vw;
   }
   section.forth div.slogan {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   section.forth div.slogan ul li {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   section.forth div.slogan ul li p {
     text-align: center;
@@ -548,13 +439,8 @@ footer.footer div.media-country div.country select.select {
     bottom: 30%;
   }
   footer.footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: 1rem;
   }
   footer.footer div.menu {

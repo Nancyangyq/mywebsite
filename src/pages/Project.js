@@ -18,11 +18,10 @@ const Project = () => {
       <p>
       1.使用HTML、CSS切版
       <br />
-      2.加入RWD手機版首頁漢堡選單切換
+      2.首頁RWD不同尺寸展示
       <br />
-      3.JQuery設計網頁動態
-      <br />
-      (輪播圖及RWD頁尾下拉選單呈現)</p>
+      3.使用JavsScript、JQuery展示動態輪播圖
+      </p>
       </div>
       </section>
 
